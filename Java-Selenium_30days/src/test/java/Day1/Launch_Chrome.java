@@ -28,7 +28,7 @@ public class Launch_Chrome {
 		System.setProperty("WebDriver.chrome.driver", "./Java-Selenium_30days/drivers/chrome.exe");
 		WebDriver driver3 = new ChromeDriver();
 		driver3.get("https://github.com/");
-		driver1.manage().window().maximize();
+		driver3.manage().window().maximize();
 		driver3.quit();
 
 	}
